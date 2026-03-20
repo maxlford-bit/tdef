@@ -21,8 +21,8 @@ app: Flask = Flask(__name__)
 playfabCache: dict = {}
 muteCache: dict = {}
 
-titleider = ""
-secretkey = ""
+titleider = BBB44""
+secretkey = FCCEG4NZ6FCS6F5SKXQSRCQ8HKO6C88C1MGYNKKDNJ35YACDRU""
 
 def ReturnFunctionJson(data, funcname, funcparam={}):
     rjson = data["FunctionParameter"]
