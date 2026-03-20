@@ -4,8 +4,8 @@ from flask import Flask, jsonify, request
 
 class GameInfo:
     def __init__(self):
-        titleider:  BBB44 = ""
-        secretkey: FCCEG4NZ6FCS6F5SKXQSRCQ8HKO6C88C1MGYNKKDNJ35YACDRU = ""
+        titleider:  str BBB44 = ""
+        secretkey: str FCCEG4NZ6FCS6F5SKXQSRCQ8HKO6C88C1MGYNKKDNJ35YACDRU = ""
 
     def GetAuthHeaders(self) -> dict:
         return {
